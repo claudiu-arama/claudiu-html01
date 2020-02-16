@@ -12,12 +12,18 @@ body {
 
 .box-1 {
   background-color: aquamarine;
+  border-color: #34eb6e;
+  color: #e234eb;
 }
 
 .box-2 {
   background-color: brown;
+  border-color: #d3d3d3;
+  color: #ffffff;
 }
 
 .box-3 {
   background-color: bisque;
+  border-color: #0000ff;
+  color: #ff0000;
 }
