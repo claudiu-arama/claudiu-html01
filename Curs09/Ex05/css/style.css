@@ -44,6 +44,7 @@ transition: width 4s ease 1s, height 4s ease 1s;
 .box-yellow {
   background-color: yellow;
   transition: transform 3s ease-in-out;
+}
 
 .box-yellow:hover {
   transform: scale(2);
