@@ -11,23 +11,98 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  margin:0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
+
+@font-face {
+  font-family: 'exoblack';
+  src: url('../fonts/exo-black-webfont.woff2') format('woff2'),
+       url('../fonts/exo-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'exolight';
+  src: url('../fonts/exo-light-webfont.woff2') format('woff2'),
+       url('../fonts/exo-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 .container {
   width: 1636px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 div.header-top {
   background-color: #000000;
   color: #ffffff;
-
+  text-align: right;
+  font-family: 'exolight';
 }
 
+span.header-contact {
+  margin-right: 250px;
+}
+
+span.header-email {
+ margin-right: 175px;
+}
+
+span.header-login {
+ margin-right: 142px;
+}
+
+header.header {
+  width: 1920px;
+}
+
+div.header-bottom {
+  background-color: #e5e5e5;
+}
+
+p.header-name {
+  font-family: 'exoblack';
+  font-size: 32px ;
+}
+
+nav.nav-main ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-family: 'exolight' ;
+  font-size: 21px;
+}
+
+nav.nav-main {
+  position: relative;
+  right: 284px;
+  text-align: right;
+}
+
+nav.nav-main ul li a {
+  text-decoration: none;
+}
+
+div.banner-main {
+  background-image: url("../images/banners/banner_1.jpg");
+  height: 1000px;
+  width: 1920px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
