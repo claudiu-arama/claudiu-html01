@@ -54,31 +54,35 @@ time, mark, audio, video {
 .container {
   width: 1636px; 
   padding-left: 142px;
-  box-sizing: border-box;
+ 
+
 }
 
 .header-top-contact {
   background-color: #707070;
   color: #fff;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.header-contact {
+/*.header-contact {
   padding-left: 1060px;
-}
+} */
 
 .header-bottom {
   background-color: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-span.header-name {
+ span.header-name {
   font-size: 32px;
-  display: inline;
-  float: left;
-}
-
+} 
+/*
 nav.nav-main {
 margin-left: 750px;
-}
+} */
 
 .nav-main ul {
   list-style-type: none;
