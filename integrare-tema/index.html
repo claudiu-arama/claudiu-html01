@@ -5,22 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css">
   <title>Realhome index</title>
+  <link href="https://fonts.googleapis.com/css?family=Exo:300,400,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <header class="header">
       <section class="container">
         <div class="header-top">
           <div class="header-top-contact group">
-        <span class="header-contact">+123 456 789 0     realhome@email.hom    Login</span>
+            <span class="header-contact">+123 456 789 0 &nbsp; &nbsp;&nbsp;
+              &nbsp; &nbsp;realhome@email.hom   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login
+            </span>
+          </div>
+          <!-- /. header-top-contact -->
         </div>
         <!-- /.header-top -->
-    </div>
-    <!-- /. header-top-contact -->
-
+      </section>
+      <!-- /. section-container -->
       <div class="header-bottom">
-        <p class="header-name">REALHOME</p>
+        <section class="container">
+        <span class="header-name">REALHOME</span>
 
-        <nav class="nav-main">
+        <nav class="nav-main group">
         <ul>
           <li><a href="/" title="Home">Home</a></li>
           <li><a href="/" title="Features">Features</a></li>
@@ -31,24 +38,23 @@
         </ul>
         </nav>
         <!-- /. nav-main -->
+      </section>
       </div>
       <!-- /. header-bottom -->
-    </section>
-    <!-- /. section-container -->
-  </header>
-  <!-- /.header -->
 
-  <main class="content">
+
+
+
+
 
     <div class="banner-main">
-
+      <div class="banner-main-element">
         <p class="banner-text">
           Lorem ipsum dolor sit amet, <br>
           consectetur adipiscing elit.
         </p>
         <!-- /. banner-text -->
 
-        <!-- FIELDSET -->
         <form class="banner-search">
           <label for="buy">Buy</label>
           <input type="text"
@@ -70,27 +76,30 @@
             name="sell"
             placeholder="Type the area, the street, or the building type… "
           >
-          <button type="submit">Search</button>
+          <button type="submit" class="button-search">Search</button>
         </form>
         <!-- /. banner-search -->
-
-      </section>
-      <!-- /. container -->
+      </div>
+      <!-- /.banner-main-element -->
 
     </div>
     <!-- /. banner-main -->
+  </div>
+  </header>
+  <!-- /.header -->
 
   <main class="catalogue-preview">
    
-  <hr>
+ 
 
     <section class="container">
+      <hr>
       <header class="header-content">
         <h1 class="header-text">Features</h1>
         <ul class="header-list">
           <li><a href="/" title="Buy">Buy</a></li>
           <li><a href="/" title="Rent">Rent</a></li>
-          <li><a href="/" title="View All">View All</a></li>
+          <li><a href="/" title="View All" class="active">View All</a></li>
         </ul>
       </header>
       <!-- /. header-content -->

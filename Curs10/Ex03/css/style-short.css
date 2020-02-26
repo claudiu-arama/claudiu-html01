@@ -21,4 +21,16 @@
   text-decoration: underline dashed magenta;
   width: 75%;
   margin: 11px auto;
+  border: 1px solid blueviolet;
+  padding: 8px 10px 10px 10px;       /*weird*/
+}
+
+.pane-short .anchor-list li a {
+  text-decoration: overline solid lightcoral;
+  margin: 5px 0;
+  padding: 2px 4px 5px 9px;
+}
+
+.pane-short .list li {
+  text-decoration: line-through double brown;
 }
