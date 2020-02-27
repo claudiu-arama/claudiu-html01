@@ -37,57 +37,68 @@ time, mark, audio, video {
   font-style: normal;
 }
 */
+body {
+  width: 100%;
+  max-width: 1920px;
+  box-sizing: border-box;
+}
 
-
-.group:after {
+.group::after {
   content: "";
   display: table;
   clear: both;
 }
+
+.container {
+  width: 85%;
+  max-width: 1636px; 
+  margin:0 auto;
+}
+
+/* -- global -- */
+
+/* -- Header start -- */
+
 .header {
   width: 100%;
   max-width: 1920px;
-  background-color: #707070;
+  background-color: #000;
   font-family: 'Exo';
 }
 
-.container {
-  width: 1636px; 
-  padding-left: 142px;
- 
-
-}
-
 .header-top-contact {
-  background-color: #707070;
+  background-color: #000000;
   color: #fff;
+  margin: 1px solid black;
   display: flex;
   justify-content: flex-end;
 }
 
-/*.header-contact {
-  padding-left: 1060px;
-} */
+.header-contact, .header-email, .header-login {
+  display: inline-block;
+  margin-left:80px;
+  margin-right: 30px;
+}
 
 .header-bottom {
   background-color: #E5E5E5;
+  height: 55px;
+}
+
+.container.logo-ribbon {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
- span.header-name {
+span.header-name {
   font-size: 32px;
+  padding-top: 8px;
 } 
-/*
-nav.nav-main {
-margin-left: 750px;
-} */
 
 .nav-main ul {
   list-style-type: none;
   font-size: 16px;
-
 }
 
 .nav-main ul li  {
@@ -102,6 +113,9 @@ margin-left: 750px;
   text-transform: uppercase;
   color:#707070 ;
 }
+/* -- Header end -- */
+
+/* -- banner start -- */
 
 .banner-main {
   background-image: url('../images/banners/banner_1.jpg');
@@ -117,37 +131,102 @@ p.banner-text {
   font-size: 32px;
   color:#D5D5D5;
   text-align: center;
-
+  padding: 90px 0;
 }
 
 div.banner-main-element {
   background-color: #000;
   opacity: 60%;
-  padding:90px 120px ;
   border-radius: 10px;
+  position: relative;
+  height: 450px;
+  width: 1090px;
+}
+
+.banner-search {
+  padding: 10px 90px;
 }
 
 .button-search {
   font-family: 'Nunito Sans';
   text-transform: uppercase;
+  font-size: 24px;
   display: inline-block;
-  padding: 32px ;
+  padding: 28px ;
   background-color: #46EADA ;
   border: 1px solid #46EADA;
   color: #fff;
   border-radius: 0 15px 15px 0;
   margin:0;
+  position: relative;
+ left: 700px;
+ top: -2px;
 }
 
-input {
-  height: 80px;
+
+input[type="text"]:hover {
+  display: inline-block;
+  position: absolute;
+  top: 278px;
+  left: 120px;
+  height:86px ;
+  margin: 0;
+  padding: 0;
+  width: 667px;
 }
 
+input.active  {
+  display: inline-block;
+  position: absolute;
+  top: 278px;
+  left: 120px;
+  height:86px ;
+  margin: 0;
+  padding: 0;
+  width: 667px;
+}
+
+:placeholder-shown {
+  position: absolute;
+  width: 690px;
+  top: 50px;
+  display: none;
+
+}
 
 label {
   background-color: white;
   font-family: 'Nunito Sans';
+  font-size: 24px;
+  padding: 8px 45px;
+  margin: 0;
 }
+
+label.buy {
+  border-top-left-radius: 10px;
+  position: absolute;
+  top: 230px;
+  left: 120px;
+
+}
+
+label.rent {
+  position: absolute;
+  top: 230px;
+  left: 250px;
+  background-color: #E5E5E5;
+
+}
+
+label.sell  {
+  border-top-right-radius: 10px;
+  position: absolute;
+  top: 230px;
+  left: 390px;
+  background-color: #D5D5D5;
+}
+
+/* -- banner end -- */
 
 h1.header-text {
   font-family: 'Nunito Sans';
@@ -160,9 +239,11 @@ h1.header-text {
 .header-content {
   display: flex;
   justify-content: space-between;
-  height: 190px;
   align-items: center;
-  min-width: 1636px;
+  height: 190px;
+  width:1636px;
+ margin:0 auto;
+ 
  
 }
 

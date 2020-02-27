@@ -12,10 +12,10 @@
 <body>
   <header class="header">
       <section class="container">
-
-          <div class="header-top-contact group">
-            <span class="header-contact">+123 456 789 0 &nbsp; &nbsp;&nbsp;
-              &nbsp; &nbsp;realhome@email.hom   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login
+          <div class="header-top-contact">
+            <span class="header-contact">+123 456 789 0</span> 
+            <span class="header-email">realhome@email.hom</span> 
+            <span class="header-login">Login</span> 
             </span>
           </div>
           <!-- /. header-top-contact -->
@@ -23,29 +23,26 @@
         <!-- /.header-top -->
       </section>
       <!-- /. section-container -->
+
       <div class="header-bottom">
-        <section class="container">
-        <span class="header-name">REALHOME</span>
+        <section class="container logo-ribbon">
+          <span class="header-name">REALHOME</span>
 
         <nav class="nav-main">
         <ul>
-          <li><a href="/" title="Home">Home</a></li>
-          <li><a href="/" title="Features">Features</a></li>
-          <li><a href="/" title="Properties">Properties</a></li>
-          <li><a href="/" title="Agents">Agents</a></li>
-          <li><a href="/" title="News">News</a></li>
-          <li><a href="/" title="Contact">Contact</a></li>
+          <li><a href="#home" title="Home">Home</a></li>
+          <li><a href="#features" title="Features">Features</a></li>
+          <li><a href="#properties" title="Properties">Properties</a></li>
+          <li><a href="#agents" title="Agents">Agents</a></li>
+          <li><a href="#news" title="News">News</a></li>
+          <li><a href="#contact" title="Contact">Contact</a></li>
         </ul>
         </nav>
         <!-- /. nav-main -->
-      </section>
+        </section>
+        <!-- /. section container -->
       </div>
       <!-- /. header-bottom -->
-
-
-
-
-
 
     <div class="banner-main">
       <div class="banner-main-element">
@@ -56,21 +53,22 @@
         <!-- /. banner-text -->
 
         <form class="banner-search">
-          <label for="buy">Buy</label>
-          <input type="text"
+          <label for="buy" class="buy">Buy</label>
+          <input type="text" class="active"
             id="buy"
             name="buy"
             placeholder="Type the area, the street, or the building type… "
+            checked
           >
         
-          <label for="rent">Rent</label>
+          <label for="rent" class="rent">Rent</label>
           <input type="text"
             name="rent"
             id="rent"
             placeholder="Type the area, the street, or the building type… "
           >
 
-          <label for="sell">Sell</label>
+          <label for="sell" class="sell">Sell</label>
           <input type="text"
             id="sell"
             name="sell"
@@ -81,17 +79,13 @@
         <!-- /. banner-search -->
       </div>
       <!-- /.banner-main-element -->
-
     </div>
     <!-- /. banner-main -->
-  </div>
   </header>
   <!-- /.header -->
 
   <main class="catalogue-preview">
    
- 
-
     <section class="container">
       <hr>
       <header class="header-content">
