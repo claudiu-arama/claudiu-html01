@@ -152,7 +152,7 @@ div.banner-main-element {
   text-transform: uppercase;
   font-size: 24px;
   display: inline-block;
-  padding: 28px ;
+  padding: 24px ;
   background-color: #46EADA ;
   border: 1px solid #46EADA;
   color: #fff;
@@ -169,7 +169,7 @@ input[type="text"]:hover {
   position: absolute;
   top: 278px;
   left: 120px;
-  height:86px ;
+  height:78px ;
   margin: 0;
   padding: 0;
   width: 667px;
@@ -180,7 +180,7 @@ input.active  {
   position: absolute;
   top: 278px;
   left: 120px;
-  height:86px ;
+  height:78px ;
   margin: 0;
   padding: 0;
   width: 667px;
@@ -228,23 +228,14 @@ label.sell  {
 
 /* -- banner end -- */
 
+/* -- Features start --*/
+
 h1.header-text {
   font-family: 'Nunito Sans';
   font-size: 36px ;
   text-transform: uppercase;
   color: #707070;
 
-}
-
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 190px;
-  width:1636px;
- margin:0 auto;
- 
- 
 }
 
 ul.header-list {
@@ -264,3 +255,122 @@ ul.header-list li a {
   padding-left: 30px;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 190px;
+  width:1636px;
+ margin: 78px auto 0 auto;
+ border-top: 1px solid #707070;
+}
+ul li a.view-all {
+color: #46EADA;
+} 
+
+/* -- Features end --*/
+
+/* -- product-tiles start -- */
+
+.product-tile {
+  box-sizing: border-box;
+  height: 720px;
+  width: 532px;
+  background-color: #F5F5F5;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.product-main-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 26px;
+  border-bottom: 1px solid #707070 ;
+}
+
+div.product-price {
+  box-sizing: border-box;
+  width: 138px;
+  height: 106px;
+  padding: 25px 37px 16px 26px;
+  display: inline-block;
+}
+
+span.product-status {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+
+}
+
+span.product-price {
+  font-family: 'Nunito Sans';
+  font-size: 28px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+span.product-name {
+  font-family: 'Nunito Sans';
+  font-size: 36px;
+  display: inline-block;
+}
+
+span.product-descript-short {
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: lighter;
+  display: inline-block;
+  font-style: italic;
+}
+
+div.product-info {
+  padding: 16px 26px 21px 26px;
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+}
+
+article.catalogue-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* -- product-tile end -- */
+
+/* --properties - product-tile start */
+
+.product-tile-small {
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+  width: 394px;
+  height: 340px;
+  border-radius: 10px;
+}
+
+div.product-price-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76px ;
+
+}
+
+span.product-status {
+font-family: 'Nunito Sans';
+font-size: 12px;
+}
+
+span.product-name {
+  font-family: 'Nunito Sans';
+  font-size: 21px;
+  font-weight: bold;
+}
+
+span.product-descript-short {
+  font-size: 16px;
+}

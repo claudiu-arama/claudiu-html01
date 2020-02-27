@@ -1,0 +1,5 @@
+"editor.tokenColorCustomizations": {
+  "[Atom One Dark]": {
+      "comments": "#d4922f"
+  }
+},
