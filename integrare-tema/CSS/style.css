@@ -50,7 +50,7 @@ body {
 }
 
 .container {
-  width: 85%;
+  width: 86%;
   max-width: 1636px; 
   margin:0 auto;
 }
@@ -290,7 +290,7 @@ color: #46EADA;
   border-bottom: 1px solid #707070 ;
 }
 
-div.product-price {
+div.product-price-features {
   box-sizing: border-box;
   width: 138px;
   height: 106px;
@@ -306,7 +306,7 @@ span.product-status {
 
 }
 
-span.product-price {
+span.product-price-feat {
   font-family: 'Nunito Sans';
   font-size: 28px;
   font-weight: bold;
@@ -345,32 +345,69 @@ article.catalogue-products {
 /* --properties - product-tile start */
 
 .product-tile-small {
-  box-sizing: border-box;
   background-color: #F5F5F5;
   width: 394px;
   height: 340px;
   border-radius: 10px;
+margin-right: 15px;
 }
 
 div.product-price-info {
   display: flex;
+}
+
+span.product-status-ppties {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 200 ;
+}
+
+span.product-price-ppties {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+div.product-price-properties {
+  border-right: 1px solid #707070;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
   justify-content: center;
-  align-items: center;
-  height: 76px ;
-
-}
-
-span.product-status {
-font-family: 'Nunito Sans';
-font-size: 12px;
-}
-
-span.product-name {
   font-family: 'Nunito Sans';
+  margin: 18px 22px 12px 21px ;
+  position: relative;
+  top: -5px;
+  padding-right: 22px;
+}
+
+span.product-name-top {
   font-size: 21px;
   font-weight: bold;
 }
 
-span.product-descript-short {
-  font-size: 16px;
+span.product-descript-small {
+  font-size: 18px;
+  font-weight: lighter;
 }
+
+div.product-name-small {
+font-family: 'Nunito Sans';
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-content: center;
+margin: 8px 0 7px 0;
+}
+
+/* --properties - product-tile end -- */
+
+/* -- properties preview start --*/
+
+.properties-preview {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
