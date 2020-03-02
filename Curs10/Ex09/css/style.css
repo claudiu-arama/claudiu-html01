@@ -1,5 +1,17 @@
 /* add code here */
 
+#container h1 {
+  color: green;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+#container .para {
+  color: red;
+  font-size: 25px;
+  font-style: italic;
+
+}
 
 
 /* add code here */
