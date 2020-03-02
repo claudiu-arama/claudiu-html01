@@ -409,5 +409,46 @@ margin: 8px 0 7px 0;
   flex-wrap: wrap;
 }
 
+/* -- properties preview end --*/
 
+/*-- trusted-agents start --*/
 
+.trusted-agents-group {
+  display: flex;
+}
+
+.agent-img {
+  display: inline-block;
+}
+
+.agent-tile {
+  font-family: 'Nunito Sans';
+  height: 900px;
+  width: 532px;
+  margin-right: 20px;
+  background-color: #F5F5F5 ;
+}
+
+.agent-name {
+  display: block;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+
+}
+
+.agent-group {
+  display: block;
+  text-align: center;
+  color: #B5B5B5;
+  font-size: 32px;
+  z-index: 10;
+}
+
+.agent-bio {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 49px;
+  font-size: 24px;
+  
+}
