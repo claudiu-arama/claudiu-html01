@@ -1,0 +1,25 @@
+<svg id="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.23" y1="0.21" x2="1.129" y2="1.239" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#46eada"/>
+      <stop offset="0.64" stop-color="#38b7c6"/>
+      <stop offset="1" stop-color="#2b84b2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_63" data-name="Rectangle 63" class="cls-1" width="72" height="72"/>
+  <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-2" cx="33.811" cy="33.811" r="33.811" transform="translate(2.189 2.189)"/>
+  <path id="Path_7" data-name="Path 7" class="cls-3" d="M17.006,31.992l-6.568-8.758a2.189,2.189,0,0,1,3.5-2.627l4.948,6.568L32.442,11.7a2.189,2.189,0,0,1,3.284,2.89L20.4,32.1a2.189,2.189,0,0,1-3.394-.109Z" transform="translate(12.862 14.08)"/>
+</svg>

@@ -88,7 +88,7 @@
    
     <section class="container">
       <header class="header-content">
-        <h1 class="header-text">Features</h1>
+        <h1 class="header-text" id="features">Features</h1>
         <ul class="header-list">
           <li><a href="/" title="Buy">Buy</a></li>
           <li><a href="/" title="Rent">Rent</a></li>
@@ -196,9 +196,8 @@
     <!-- /. container -->
 
     <section class="container">
-
       <header class="header-content">
-        <h1 class="header-text">Properties</h1>
+        <h1 class="header-text" id="properties">Properties</h1>
         <ul class="header-list">
           <li><a href="/" title="Buy">Buy</a></li>
           <li><a href="/" title="Rent">Rent</a></li>
@@ -410,23 +409,49 @@
 
   <section class="container">
     <header class="header-content">
-      <h1 class="header-text">Trusted Agents</h1>
+      <h1 class="header-text" id="agents">Trusted Agents</h1>
     </header>
     <!-- /. header-content -->
     <section class="trusted-agents-group">
       <article class="agent-tile">
         <div class="agent-img">
-          <img src="images/agents/agent_1.jpg" alt="agent">
-          <img src="images/check.jpg" alt="check">
+          <img class="agent-badge" src="images/agents/agent_1.svg" alt="agent">
+          <img class="agent-badge-check" src="images/check.svg" alt="check">
         </div>
         <span class="agent-name">Name Name</span>
         <span class="agent-group">Group Group</span>
-        <span class="agent-bio">
+        <span class="agent-bio-descript">
           Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit. Suspendisse molestie mi et quam volutpat euismod. Quisque lectus ex, egestas sit amet turpis vestibulum, gravida tincidunt ligula. <br>
-          123-456-789 <br>
-          123-456-789 <br>
-          emailemail@email.com
+        </span> 
+        <span class="agent-bio-phone">123-456-789
+          123-456-789
+        </span> 
+        <span class="agent-bio-email">emailemail@email.com
+        </span>
+        <div class="agent-contact">
+          <a href="/" title="Contact me">
+            <img src="images/contact.jpg" alt="contact">
+          </a>
+        </div>
+      </article>
+      <!-- /. agent-tile -->
+
+      <article class="agent-tile">
+        <div class="agent-img">
+          <img  class="agent-badge" src="images/agents/agent_2.svg" alt="agent">
+          <img  class="agent-badge-check" src="images/check.svg" alt="check">
+        </div>
+        <span class="agent-name">Name Name</span>
+        <span class="agent-group">Group Group</span>
+        <span class="agent-bio-descript">
+          Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit. Suspendisse molestie mi et quam volutpat euismod. Quisque lectus ex, egestas sit amet turpis vestibulum, gravida tincidunt ligula. <br>
+        </span> 
+        <span class="agent-bio-phone">123-456-789
+          123-456-789
+        </span> 
+        <span class="agent-bio-email">emailemail@email.com
         </span>
         <div class="agent-contact">
           <a href="/" title="Contact me"><img src="images/contact.jpg" alt="contact"></a>
@@ -436,37 +461,19 @@
 
       <article class="agent-tile">
         <div class="agent-img">
-          <img src="images/agents/agent_2.jpg" alt="agent">
-          <img src="images/check.jpg" alt="check">
+          <img  class="agent-badge" src="images/agents/agent_3.svg" alt="agent">
+          <img  class="agent-badge-check" src="images/check.svg" alt="check">
         </div>
         <span class="agent-name">Name Name</span>
         <span class="agent-group">Group Group</span>
-        <span class="agent-bio">
+        <span class="agent-bio-descript">
           Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit. Suspendisse molestie mi et quam volutpat euismod. Quisque lectus ex, egestas sit amet turpis vestibulum, gravida tincidunt ligula. <br>
-          123-456-789 <br>
-          123-456-789 <br>
-          emailemail@email.com
-        </span>
-        <div class="agent-contact">
-          <a href="/" title="Contact me"><img src="images/contact.jpg" alt="contact"></a>
-        </div>
-      </article>
-      <!-- /. agent-tile -->
-
-      <article class="agent-tile">
-        <div class="agent-img">
-          <img src="images/agents/agent_3.jpg" alt="agent">
-          <img src="images/check.jpg" alt="check">
-        </div>
-        <span class="agent-name">Name Name</span>
-        <span class="agent-group">Group Group</span>
-        <span class="agent-bio">
-          Lorem ipsum dolor sit amet, consectetur 
-          adipiscing elit. Suspendisse molestie mi et quam volutpat euismod. Quisque lectus ex, egestas sit amet turpis vestibulum, gravida tincidunt ligula. <br>
-          123-456-789 <br>
-          123-456-789 <br>
-          emailemail@email.com
+        </span> 
+        <span class="agent-bio-phone">123-456-789
+          123-456-789
+        </span> 
+        <span class="agent-bio-email">emailemail@email.com
         </span>
         <div class="agent-contact">
           <a href="/" title="Contact me"><img src="images/contact.jpg" alt="contact"></a>
@@ -479,15 +486,14 @@
   <!-- /.container -->
 
     <section class="container">
-    <hr>
       <header class="header-content">
-        <h1 class="header-text">Latest News</h1>
+        <h1 class="header-text" id="news">Latest News</h1>
         <ul class="header-list">
           <li><a href="/" title="View All">View All</a></li>
         </ul>
       </header>
       <!-- /. header-content -->
-
+<article class="news-tiles-carousel">
       <article class="news-tile">
         <a href="/" title="news_1"><img src="images/news/news_1.jpg" alt="news-1"></a>
         <div class="news-name">
@@ -500,7 +506,7 @@
         </div>
       </article>
       <!-- /. news-tile -->
-
+      
       <article class="news-tile">
         <a href="/" title="news_2"><img src="images/news/news_2.jpg" alt="news-1"></a>
         <div class="news-name">
@@ -526,6 +532,8 @@
         </div>
       </article>
       <!-- /. news-tile -->
+    </article>
+    <!-- /. news-tile-carousel -->
 
     </section>
     <!-- /.container -->
@@ -536,41 +544,41 @@
     <section class="container">
       <div class="contact-form">
         <header class="header-content">
-          <h1 class="header-text">Contact Us</h1>
+          <h1 class="header-text" id="contact">Contact Us</h1>
         </header>
         <!-- /.header-content -->
+        
         <form class="contact-us">
-          <input type="text"
-            id="name"
-            name="name"
-            placeholder="Name"
-            required
-          >
+          <div class="contact-us-flex">
+            <input type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            >
 
-          <input type="text"
-            name="email" 
-            id="email"
-            placeholder="Email"
-            required
-          >
+            <input type="text"
+              name="email" 
+              id="email"
+              placeholder="Email"
+              required
+            >
 
-          <input type="text" 
-            name="phone" 
-            id="phone"
-            placeholder="Phone(Optional)"
-          >
-
-            <br> <br>
+            <input type="text" 
+              name="phone" 
+              id="phone"
+              placeholder="Phone(Optional)"
+            >
+          </div>
 
           <textarea name="message"
               id="message" 
-              cols="59" 
-              rows="10"
+              cols="" 
+              rows=""
               placeholder="Your message..."
           ></textarea>
 
-          <button type="submit" id="send">
-            <img src="images/send.jpg" alt="send">
+          <button type="submit" id="send">Send
           </button>
 
         </form>
