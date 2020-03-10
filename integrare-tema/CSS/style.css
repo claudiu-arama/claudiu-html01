@@ -37,6 +37,7 @@ time, mark, audio, video {
   font-style: normal;
 }
 */
+
 body {
   width: 100%;
   max-width: 1920px;
@@ -103,9 +104,8 @@ body {
 
 .nav-main ul li  {
   display: inline-block;
-  margin-left: 35px;
+  margin: 10px 0 0 35px;
   font-size: 21px;
-  margin-top: 10px ;
 }
 
 .nav-main ul li a {
@@ -557,16 +557,18 @@ margin-right: 15px;
 
 .footer {
   background-color: #707070;
+  font-family: 'Nunito Sans';
 }
 
 .footer-top {
   margin: 220px 0 50px 0;
-display: flex;
+  display: flex;
+  justify-content: center;
 
 }
 
 .footer-top .footer-contact h1 {
-  padding: 160px 140px;
+  padding: 160px 0 0 0;
   color: #46EADA;
   text-transform: uppercase;
   font-size: 36px;
@@ -576,4 +578,19 @@ display: flex;
   padding-left: 140px;
   color: #ffffff;
   font-size: 24px;
+  width: 50%;
+}
+
+.footer-top .footer-contact p {
+  padding: 70px 0 0 0 ;
+}
+
+.footer-contact .footer-info-left {
+  float: left;
+  padding-top: 30px;
+}
+
+.footer-contact .footer-info-right {
+  float: right;
+  padding-top: 30px;
 }
