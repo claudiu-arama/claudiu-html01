@@ -147,7 +147,7 @@ body {
   padding: 10px 90px;
 }
 
-.banner-main-element .button-search {
+.banner-main-element .banner-search .button-search {
   font-family: 'Nunito Sans';
   text-transform: uppercase;
   font-size: 24px;
@@ -158,9 +158,9 @@ body {
   color: #fff;
   border-radius: 0 15px 15px 0;
   margin:0;
-  position: relative;
- left: 700px;
- top: -2px;
+  position: absolute;
+ left: 790px;
+ 
 }
 
 .banner-search input[type="text"]:hover {
@@ -593,4 +593,55 @@ margin-right: 15px;
 .footer-contact .footer-info-right {
   float: right;
   padding-top: 30px;
+} 
+
+.footer-contact input[type="email"]:placeholder-shown {
+height: 80px;
+width: 410px;
+font-size: 32px;
+font-family: inherit;
+color: #B5B5B5;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+padding-left: 33px;
+margin-top: 66px;
+position: relative;
+border: none;
+}
+
+.footer-contact #subscribe {
+  border: none;
+  height: 80px;
+  width: 160px;
+  color: #fff;
+  font-family: inherit;
+  background: linear-gradient(45deg,#41D8D3, #44E3D7);
+  position: relative;
+  top:-4px;
+  left: -8px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.footer-bottom {
+ color: #fff;
+ padding: 90px 0;
+}
+
+.footer-bottom ul li {
+  display: inline-block;
+}
+
+.footer-bottom ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 5px;
+}
+
+.footer-bottom-nav {
+  position: relative;
+  left:1200px;
 }
