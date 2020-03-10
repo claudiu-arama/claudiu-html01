@@ -52,6 +52,7 @@ body {
   width: 86%;
   max-width: 1636px; 
   margin:0 auto;
+  font-family: 'Nunito Sans';
 }
 
 /* -- global -- */
@@ -386,12 +387,12 @@ margin-right: 15px;
 }
 
 .product-tile-small .product-name-small {
-font-family: 'Nunito Sans';
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-content: center;
-margin: 8px 0 7px 0;
+  font-family: 'Nunito Sans';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 8px 0 7px 0;
 }
 
 /* --properties - product-tile end -- */
@@ -505,8 +506,8 @@ margin: 8px 0 7px 0;
 }
 
 .news-body {
-font-size: 24px ;
-margin: 0 44px 21px 30px;
+  font-size: 24px ;
+  margin: 0 44px 21px 30px;
 }
 
 /* -- latest-news-end -- */
@@ -530,26 +531,49 @@ margin: 0 44px 21px 30px;
 }
 
 .contact-us textarea {
-  width: 100%;
+  width: 1630px;
   height: 360px;
   font-family: 'Nunito Sans';
 }
 
 .contact-us .send {
-background: linear-gradient(45deg,#46EADA, #2B84B2);
-border-radius: 10px;
-border: 1px white solid;
-color: #fff;
-text-transform: uppercase;
-padding: 26px 92px ;
-font-family: 'Nunito Sans';
-font-size: 28px;
-position: relative;
-top: 10px;
-left: 1384px;
+  display: block;
+  background: linear-gradient(45deg,#46EADA, #2B84B2);
+  border-radius: 10px;
+  border: 1px white solid;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 26px 92px ;
+  font-family: 'Nunito Sans';
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 1377px;
 }
 
 /* -- contact-us end -- */
 
 /* -- footer start -- */
 
+.footer {
+  background-color: #707070;
+}
+
+.footer-top {
+  margin: 220px 0 50px 0;
+display: flex;
+
+}
+
+.footer-top .footer-contact h1 {
+  padding: 160px 140px;
+  color: #46EADA;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.footer-top .footer-contact {
+  padding-left: 140px;
+  color: #ffffff;
+  font-size: 24px;
+}
