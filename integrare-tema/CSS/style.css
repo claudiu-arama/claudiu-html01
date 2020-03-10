@@ -516,6 +516,7 @@ margin: 0 44px 21px 30px;
 .contact-us .contact-us-flex {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .contact-us input[type="text"] {
@@ -533,3 +534,22 @@ margin: 0 44px 21px 30px;
   height: 360px;
   font-family: 'Nunito Sans';
 }
+
+.contact-us .send {
+background: linear-gradient(45deg,#46EADA, #2B84B2);
+border-radius: 10px;
+border: 1px white solid;
+color: #fff;
+text-transform: uppercase;
+padding: 26px 92px ;
+font-family: 'Nunito Sans';
+font-size: 28px;
+position: relative;
+top: 10px;
+left: 1384px;
+}
+
+/* -- contact-us end -- */
+
+/* -- footer start -- */
+
