@@ -136,7 +136,7 @@ body {
 
 .banner-main .banner-main-element {
   background-color: #000;
-  opacity: 60%;
+  opacity: 70%;
   border-radius: 10px;
   position: relative;
   height: 450px;
@@ -159,8 +159,8 @@ body {
   border-radius: 0 15px 15px 0;
   margin:0;
   position: absolute;
- left: 790px;
- 
+  left: 790px;
+  top: 278px;
 }
 
 .banner-search input[type="text"]:hover {
@@ -271,7 +271,7 @@ body {
 
 .catalogue-products  {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -283,6 +283,19 @@ body {
   background-color: #F5F5F5;
   border-radius: 10px;
 }
+
+.catalogue-products .product-tile .product-link-hidden img {
+  display: inline;
+  position: absolute;
+  top: -485px;
+}
+/* 
+.catalogue-products .product-tile .product-link-hidden {
+}
+
+.catalogue-products .product-tile .product-link:hover {
+  opacity: 50%;
+  } */
 
 .catalogue-products .product-main-details {
   display: flex;
@@ -337,6 +350,7 @@ body {
 }
 
 
+
 /* -- product-tile end -- */
 
 /* --properties - product-tile start */
@@ -346,7 +360,8 @@ body {
   width: 394px;
   height: 340px;
   border-radius: 10px;
-margin-right: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 .properties-preview .product-price-info {
@@ -369,7 +384,7 @@ margin-right: 15px;
   display:flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
+  justify-content: space-between;
   font-family: 'Nunito Sans';
   margin: 18px 22px 12px 21px ;
   position: relative;
@@ -536,6 +551,12 @@ margin-right: 15px;
   font-family: 'Nunito Sans';
 }
 
+.contact-us textarea::placeholder {
+  font-size: 24px;
+  padding-top: 41px;
+  padding-left: 49px;
+}
+
 .contact-us .send {
   display: block;
   background: linear-gradient(45deg,#46EADA, #2B84B2);
@@ -549,6 +570,7 @@ margin-right: 15px;
   position: relative;
   top: 10px;
   left: 1377px;
+  cursor: pointer;
 }
 
 /* -- contact-us end -- */
@@ -611,7 +633,7 @@ border: none;
 
 .footer-contact #subscribe {
   border: none;
-  height: 80px;
+  height: 82px;
   width: 160px;
   color: #fff;
   font-family: inherit;
@@ -623,6 +645,7 @@ border: none;
   border-bottom-right-radius: 10px;
   text-transform: uppercase;
   font-size: 21px;
+  cursor: pointer;
 }
 
 .footer-bottom {
