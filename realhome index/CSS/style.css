@@ -283,19 +283,19 @@ body {
   background-color: #F5F5F5;
   border-radius: 10px;
 }
-
+/* 
 .catalogue-products .product-tile .product-link-hidden img {
   display: inline;
   position: absolute;
   top: -485px;
 }
-/* 
+
 .catalogue-products .product-tile .product-link-hidden {
 }
-
+ */
 .catalogue-products .product-tile .product-link:hover {
   opacity: 50%;
-  } */
+  } 
 
 .catalogue-products .product-main-details {
   display: flex;

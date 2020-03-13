@@ -96,7 +96,7 @@ body {
 }
 
 .header-controls {
-	width: 140px;
+	width: 120px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -130,4 +130,173 @@ body {
 }
 
 /* -- header-top end -- */
+
+/* -- header-bottom start -- */
+
+.header-bottom {
+	text-align: center;
+}
+
+.header-bottom .nav-main ul li {
+	display: inline-block;
+}
+
+.header-bottom .nav-main li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #707070;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 2px;
+	padding: 18px;
+	border-radius: 35px;
+	transition: background-color 0.2s linear,
+		color 0.2s linear ;
+}
+
+.header-bottom .nav-main li a:hover {
+	background-color: #FF6B6B;
+	color: #fff;
+}
+
+.nav-main ul .active a {
+	text-decoration: underline solid #FF6B6B;
+}
+
+.nav-main li .fa-sliders-h {
+	color: #FF6B6B;
+	padding: 12px;
+	transform: rotate(-90deg);
+	border: 1px solid #FF6B6B;
+	border-radius: 40px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.nav-secondary ul li {
+	display: inline-block;
+}
+
+.nav-secondary li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #707070;
+}
+
+.nav-secondary li a:hover {
+	color: #FF6B6B;
+	font-weight: bold;
+}
+
+.nav-secondary ul li {
+	padding: 11px 17px;
+}
+
+/* --banner-bottom end -- */
+
+/* -- banner-main start -- */
+
+.banner-main {
+	background-image: url(../images/banners/leather-glove-hand.jpg);
+	background-repeat: no-repeat;
+	min-height: 572px;
+	background-position: center center;
+	background-size: cover;
+	background-color: #000;
+	margin: 0 0 100px 0;
+}
+
+.banner-main .container {
+	display: flex;
+	justify-content: flex-end;
+	min-height: inherit;
+	text-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.banner-main .container .banner-position {
+	margin: 0 75px;
+}
+
+.banner-main .container h1 {
+	font-size: 75px;
+	font-weight: bold;
+	color: #fff;
+	margin: 20px;
+}
+
+.banner-main .container h2 {
+	font-size: 42px;
+	color: #fff;
+}
+
+.banner-main .container a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FF6B6B;
+	padding: 25px 40px;
+	border: 2px solid #FF6B6B;
+	border-radius: 35px;
+	margin: 40px;
+}
+
+.banner-main .container a:hover {
+	background-color: #FF6B6B;
+	color: #fff;
+}
+
+.banner-main .container .banner-info {
+	position: absolute;
+	bottom: 24px;
+	text-align: end;
+	padding-right: 75px;
+	color: #fff;
+}
+
+/* -- banner-main end -- */
+
+/* --header-content start */
+
+.header-content {
+	display: block;
+	margin: 100px auto 40px auto;
+	text-align: center;
+}
+
+.header-content h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #292929;
+	margin-bottom: 10px;
+}
+
+.header-content h1 span {
+	font-weight: bolder;
+}
+
+/* --header-content end-- */
+
+/* --catalogue-preview start -- */
+
+.catalogue-preview {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-tile .product-image {
+	position: relative;
+}
+
+.catalogue-preview .product-tile .product-badge {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 20px;
+	padding: 20px;
+	background-color: #FF6B6B;
+	border-radius: 40px;
+
+}
 
