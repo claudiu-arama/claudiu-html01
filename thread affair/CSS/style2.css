@@ -56,6 +56,8 @@ table {
 
 /* --global stuff -- */
 
+/* -- header-top start -- */
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -74,25 +76,48 @@ body {
   justify-content: space-between;
 }
 
+.phone-contacts p {
+	float: right;
+}
+
+.phone-contacts .fa-phone-alt {
+	color: #FF6B6B;
+	font-size: 29px;
+	position: relative;
+}
+
+.phone-contacts .fa-comment {
+	color: #FF6B6B;
+	font-size: 24px;
+	position: relative;
+	top: -15px;
+	left: -16px;
+	display: inline-block;
+}
+
 .header-controls {
 	width: 140px;
 	display: flex;
 	justify-content: space-between;
 }
 
+.header-controls .fa-chevron-down {
+	position: relative;
+	top: -14px ;
+	font-size: 20px;
+}
+
 .cart {
-	float: right;
 	display: inline-block;
 }
 
 .cart .fa-shopping-cart {
-	font-size: 33px;
+	font-size: 30px;
 	position: relative;
 	top: 5px;
 }
 
 .cart .cart-count {
-	float: right;
 	position: absolute;
 	top: 20px;
 	font-family: 'Roboto', sans-serif;
@@ -100,5 +125,9 @@ body {
 	background-color: #FF6B6B;
 	padding: 3px 6px;
 	border-radius: 11px;
+	margin-left: -10px;
 	text-align: center;
 }
+
+/* -- header-top end -- */
+
