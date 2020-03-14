@@ -92,7 +92,6 @@ body {
 	position: relative;
 	top: -15px;
 	left: -16px;
-	display: inline-block;
 }
 
 .header-controls {
@@ -476,7 +475,7 @@ cursor: pointer;
 
 /* -- footer start -- */
 
-.footer .container .footer-top {
+.footer .footer-top {
 	background-image: url(../images/banners/stock_man_touching.jpg);
 	min-height: 322px;
 	background-repeat: no-repeat;
@@ -486,6 +485,57 @@ cursor: pointer;
 	font-size: 14px;
 }
 
-.container .footer-top ul {
+.container .footer-top .footer-top-information ul {
+	float: left;
+	padding: 47px 0 50px 48px;
+}
+
+.container .footer-top li a {
+	color: #707070;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px 0;
+}
+
+.footer-top .footer-top-contact {
+	padding: 4px 58px 34px 48px;
+}
+
+.footer-top .footer-top-contact ul {
+	float: left;
+
+}
+
+.footer-top .footer-top-contact ul li {
+	display: inline-block;
+	padding: 0 15px 0 0;
+}
+
+.footer-top .footer-top-contact .footer-contact {
 	float: left;
 }
+
+.footer-top .footer-top-contact li a {
+	margin: 9px 20px 0 0 ;
+}
+
+.footer-top-contact li [class*="fa-"] {
+	color: #FF6B6B;
+	font-size: 34px;
+	display: block;
+	padding-left: 10px;
+}
+
+.footer-top-contact .fa-comment {
+	position: relative;
+	top: 16px;
+	left: 19px;
+}
+
+.footer-top-contact .footer-contact {
+
+}
+
+
+
