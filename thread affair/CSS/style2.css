@@ -365,5 +365,127 @@ h2 > .product-link {
 	color: #fff;
 	text-transform: uppercase;
 	cursor: pointer;
+}
 
+/* -- catalogue-preview end -- */
+
+/* --newsletter-subscription start -- */
+
+.user-subscription {
+	background-color: #383838;
+	min-height: 236px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 100px auto 0 auto;
+}
+
+.user-subscription .subscription {
+	align-items: center;
+	padding: 0 0 0 60px;
+}
+
+.user-subscription .subscription .subscribe {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+
+.user-subscription .subscription .newsletter {
+	font-size: 55px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.user-subscription .subscription .subscribe, 
+.user-subscription .subscription .newsletter {
+	display: block;
+	text-align: center;
+}
+
+.email input[type="email"]::placeholder {
+	color: #fff;
+	font-weight: 100;
+}
+
+.email input[type="email"] {
+	background-color: #383838;
+	color: #fff;
+	font-size: 19px;
+	width: 440px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	padding: 13px;
+	margin: 0 100px 40px 0;
+}
+
+.user-subscription .email label {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 19px;
+	position: relative;
+	left: -40px;
+cursor: pointer;
+}
+
+.user-subscription button[type="submit"] {
+	background-color: #383838;
+	border: none;
+	margin-right: 45px;
+	margin-top: 20px;
+	position: relative;
+	top: 20px;
+	cursor: pointer;
+}
+
+/* --newsletter-subscription end -- */
+
+/* --how-to-pay start -- */
+
+.how-to-pay {
+	margin: 120px auto 60px auto;
+	text-align: center;
+	color: #000;
+}
+
+.how-to-pay h1 {
+	font-size: 41px;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+.how-to-pay span {
+	font-weight: bold;
+}
+
+.how-to-pay .payment-logos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 380px;
+}
+
+.how-to-pay .payment-logos li {
+	display: inline-block;
+	padding: 10px;
+}
+
+/* --how-to-pay end-- */
+
+/* -- footer start -- */
+
+.footer .container .footer-top {
+	background-image: url(../images/banners/stock_man_touching.jpg);
+	min-height: 322px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: #aeaeae;
+	font-size: 14px;
+}
+
+.container .footer-top ul {
+	float: left;
 }
